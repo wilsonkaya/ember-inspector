@@ -92,3 +92,8 @@ Take the next 10 minutes to play around with this app in the Ember Inspector. If
 ## Additional Resources
 
 - [Source code for Ember Inspector](https://github.com/emberjs/ember-inspector)
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
