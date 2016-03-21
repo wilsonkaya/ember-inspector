@@ -1,4 +1,4 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # Ember Inspector
 
@@ -62,14 +62,14 @@ Babel (4)                                     | 1088ms (272 ms)
 
 Open `http://localhost:4200` in your browser; you should see a page like this:
 
-![Page](./lesson-assets/todos-fullpage.png)
+![Page](https://cloud.githubusercontent.com/assets/3653013/13907186/b166c04c-eebe-11e5-8d9d-46c143e02c15.png)
 
 Finally, open Ember Inspector; in Chrome, you do this by opening the Chrome
  Inspector and going to the tab labelled 'Ember'.
 
 ### Info Tab
 
-![Info](./lesson-assets/todos-infotab.png)
+![Info](https://cloud.githubusercontent.com/assets/3653013/13907190/bf7dec64-eebe-11e5-849e-8afd872a2394.png)
 
 The info tab is where you can find version information for the key libraries in
  your Ember application (Ember, Ember Data, jQuery) as well as the version of
@@ -77,7 +77,7 @@ The info tab is where you can find version information for the key libraries in
 
 ### View Tree Tab
 
-![View Tree](./lesson-assets/todos-viewtreetab.png)
+![View Tree](https://cloud.githubusercontent.com/assets/3653013/13907193/cd7e40ca-eebe-11e5-8af1-962f6b527b53.png)
 
 The 'View Tree' tab shows all of the view states in your application.
 A view state is an abstraction representing a possible way that the screen can
@@ -111,7 +111,7 @@ Take note that these entities usually have a _lot_ of properties and
 
 ### Routes Tab
 
-![Routes](./lesson-assets/todos-routestab.png)
+![Routes](https://cloud.githubusercontent.com/assets/3653013/13907194/dd607e2c-eebe-11e5-85d9-01cbcf429ede.png)
 
 The 'Routes' tab allows you to look at all of the routes in your application
  that users can hit.
@@ -134,7 +134,7 @@ Similar to the 'View Tree' tab, the 'Routes' tab allows us to zoom in on Route
 
 ### Data Tab
 
-![Data](./lesson-assets/todos-datatab.png)
+![Data](https://cloud.githubusercontent.com/assets/3653013/13907195/ed059ad8-eebe-11e5-8106-99d7b1299c74.png)
 
 The 'Data' tab is a very useful one - it shows every model instance that'd been
  created by your application (split up by Model) along with all of its
@@ -143,7 +143,7 @@ Naturally, this is very useful for making sure that your data all look correct.
 
 ### Deprecations Tab
 
-![Deprecations](./lesson-assets/todos-deprecationstab.png)
+![Deprecations](https://cloud.githubusercontent.com/assets/3653013/13907197/fccb2aa0-eebe-11e5-9816-7d940f9407b8.png)
 
 The 'Deprecations' tab functions as a sort of linter for your Ember code, giving
  you warnings about particular expressions, idioms, or tools that will soon be
