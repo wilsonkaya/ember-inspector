@@ -48,7 +48,7 @@ By the end of this session, you should be able to:
 In order to get comfortable using Ember Inspector, we're going to use it to
  explore a working Ember app (included in this repo for your convenience).
 The code for this application comes from
- [an example app](https://github.com/ember-cli/ember-cli-todos)
+ [an example app](https://guides.emberjs.com/v2.8.0/tutorial/ember-cli/)
  produced by the ember-cli team.
 
 Run `ember serve` to launch the application.
