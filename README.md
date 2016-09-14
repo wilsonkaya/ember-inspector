@@ -108,9 +108,9 @@ See the `>$E` thing on the right side of the cells in the 'Model', 'Controller',
 That link will take the entity referenced in that cell and make it available in
  the console, inside a variable called `$E`.
 For instance, if click the `>$E` in the Model column, you can run the following
- script in the console to print out the names of all the tasks in the list.
+ script in the console to print out the names of all the rentals in the list.
 
-`$E.all.forEach(function(todo){console.log(todo.get('title'))})`
+`$E.forEach(function(rental){console.log(rental.get('title'))})`
 
 Take note that these entities usually have a _lot_ of properties and
  methods, most of which you don't ever manipulate directly - they're part of
