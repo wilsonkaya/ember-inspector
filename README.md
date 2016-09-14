@@ -18,11 +18,16 @@ By now, you have already learned how to:
 By the end of this session, you should be able to:
 
 -   Set up the Ember Inspector browser extension.
+
 -   Get top-level information about the application using the Info tab.
+
 -   Inspect an application's view states (along with associated Models
      and Templates) using the Inspector's "View Tree" tab.
+
 -   Explore individual Routes using the "Routes" tab.
+
 -   Look through the data store using the "Data" tab.
+
 -   Identify possible deprecated code in your applications using the
      "Deprecations" tab.
 
@@ -30,7 +35,9 @@ By the end of this session, you should be able to:
 
 1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
+
 1.  Install dependencies with `npm install` and `bower install`.
+
 1.  Install the Ember Inspector through the
      [Chrome Web Store](https://chrome.google.com/webstore/category/apps)
      (if you're using FireFox, you can download it as an [add-on](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
@@ -62,14 +69,14 @@ Babel (4)                                     | 1088ms (272 ms)
 
 Open `http://localhost:4200` in your browser; you should see a page like this:
 
-![Page](https://cloud.githubusercontent.com/assets/3653013/13907186/b166c04c-eebe-11e5-8d9d-46c143e02c15.png)
+![Page](https://cloud.githubusercontent.com/assets/10408784/18523341/da05e2b8-7a81-11e6-8fa6-db4fd7cca906.png)
 
 Finally, open Ember Inspector; in Chrome, you do this by opening the Chrome
  Inspector and going to the tab labelled 'Ember'.
 
 ### Info Tab
 
-![Info](https://cloud.githubusercontent.com/assets/3653013/13907190/bf7dec64-eebe-11e5-849e-8afd872a2394.png)
+![Info](https://cloud.githubusercontent.com/assets/10408784/18523372/edbe110e-7a81-11e6-91a8-cd0dc31b3096.png)
 
 The info tab is where you can find version information for the key libraries in
  your Ember application (Ember, Ember Data, jQuery) as well as the version of
@@ -77,7 +84,7 @@ The info tab is where you can find version information for the key libraries in
 
 ### View Tree Tab
 
-![View Tree](https://cloud.githubusercontent.com/assets/3653013/13907193/cd7e40ca-eebe-11e5-8af1-962f6b527b53.png)
+![View Tree](https://cloud.githubusercontent.com/assets/10408784/18523407/17e70472-7a82-11e6-8d7a-44f03b7b1bcf.png)
 
 The 'View Tree' tab shows all of the view states in your application.
 A view state is an abstraction representing a possible way that the screen can
@@ -111,7 +118,7 @@ Take note that these entities usually have a _lot_ of properties and
 
 ### Routes Tab
 
-![Routes](https://cloud.githubusercontent.com/assets/3653013/13907194/dd607e2c-eebe-11e5-85d9-01cbcf429ede.png)
+![Routes](https://cloud.githubusercontent.com/assets/10408784/18523423/2849313c-7a82-11e6-9af0-2c7dbb0dcef1.png)
 
 The 'Routes' tab allows you to look at all of the routes in your application
  that users can hit.
@@ -134,7 +141,7 @@ Similar to the 'View Tree' tab, the 'Routes' tab allows us to zoom in on Route
 
 ### Data Tab
 
-![Data](https://cloud.githubusercontent.com/assets/3653013/13907195/ed059ad8-eebe-11e5-8106-99d7b1299c74.png)
+![Data](https://cloud.githubusercontent.com/assets/10408784/18523433/385306a2-7a82-11e6-8fda-c48fd1b0d559.png)
 
 The 'Data' tab is a very useful one - it shows every model instance that'd been
  created by your application (split up by Model) along with all of its
@@ -143,7 +150,7 @@ Naturally, this is very useful for making sure that your data all look correct.
 
 ### Deprecations Tab
 
-![Deprecations](https://cloud.githubusercontent.com/assets/3653013/13907197/fccb2aa0-eebe-11e5-9816-7d940f9407b8.png)
+![Deprecations](https://cloud.githubusercontent.com/assets/10408784/18523459/5125cd04-7a82-11e6-8d75-1a57a6e5e459.png)
 
 The 'Deprecations' tab functions as a sort of linter for your Ember code, giving
  you warnings about particular expressions, idioms, or tools that will soon be
