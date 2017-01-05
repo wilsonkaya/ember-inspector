@@ -46,37 +46,21 @@ By the end of this session, you should be able to:
 ## Using Ember Inspector
 
 In order to get comfortable using Ember Inspector, we're going to use it to
- explore a working Ember app (included in this repo for your convenience).
+ explore a working Ember app.
 The code for this application comes from
- [an example app](https://guides.emberjs.com/v2.8.0/tutorial/ember-cli/)
- produced by the ember-cli team.
+ [yoember](http://yoember.com/)
+ produced by Zoltan Debre
 
-Run `ember serve` to launch the application.
-You should see a message in the console that looks like this:
+Go to [this link](https://yoember-library-app-18b03.firebaseapp.com/) in your browser; you should see a page like this:
 
-```bash
-Build successful - 9951ms.
-
-Slowest Trees                                 | Total
-----------------------------------------------+---------------------
-ConcatWithMaps                                | 6567ms
-
-Slowest Trees (cumulative)                    | Total (avg)
-----------------------------------------------+---------------------
-ConcatWithMaps (4)                            | 6622ms (1655 ms)
-Babel (4)                                     | 1088ms (272 ms)
-```
-
-Open `http://localhost:4200` in your browser; you should see a page like this:
-
-![Page](https://cloud.githubusercontent.com/assets/10408784/18523341/da05e2b8-7a81-11e6-8fa6-db4fd7cca906.png)
+![Page](https://i.gyazo.com/8962fe7c46bb4eaf824e06b9618a714a.png)
 
 Finally, open Ember Inspector; in Chrome, you do this by opening the Chrome
  Inspector and going to the tab labelled 'Ember'.
 
 ### Info Tab
 
-![Info](https://cloud.githubusercontent.com/assets/10408784/18523372/edbe110e-7a81-11e6-91a8-cd0dc31b3096.png)
+![Info](https://i.gyazo.com/d439c3118766e270b122c3a451e91269.png)
 
 The info tab is where you can find version information for the key libraries in
  your Ember application (Ember, Ember Data, jQuery) as well as the version of
@@ -114,7 +98,7 @@ Take note that these entities usually have a _lot_ of properties and
 
 ### Routes Tab
 
-![Routes](https://cloud.githubusercontent.com/assets/10408784/18523423/2849313c-7a82-11e6-9af0-2c7dbb0dcef1.png)
+![Routes](https://i.gyazo.com/94e0c6972087da3d3088e1248a7d744b.png)
 
 The 'Routes' tab allows you to look at all of the routes in your application
  that users can hit.
@@ -137,7 +121,7 @@ Similar to the 'View Tree' tab, the 'Routes' tab allows us to zoom in on Route
 
 ### Data Tab
 
-![Data](https://cloud.githubusercontent.com/assets/10408784/18523433/385306a2-7a82-11e6-8fda-c48fd1b0d559.png)
+![Data](https://i.gyazo.com/eb0c88bc87801ea41e2eda374f37103b.png)
 
 The 'Data' tab is a very useful one - it shows every model instance that'd been
  created by your application (split up by Model) along with all of its
@@ -146,7 +130,7 @@ Naturally, this is very useful for making sure that your data all look correct.
 
 ### Deprecations Tab
 
-![Deprecations](https://cloud.githubusercontent.com/assets/10408784/18523459/5125cd04-7a82-11e6-8d75-1a57a6e5e459.png)
+![Deprecations](https://i.gyazo.com/058199051b04a75b006e6ec9441bc004.png)
 
 The 'Deprecations' tab functions as a sort of linter for your Ember code, giving
  you warnings about particular expressions, idioms, or tools that will soon be
