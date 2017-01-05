@@ -35,9 +35,6 @@ By the end of this session, you should be able to:
 
 1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
-
-1.  Install dependencies with `npm install` and `bower install`.
-
 1.  Install the Ember Inspector through the
      [Chrome Web Store](https://chrome.google.com/webstore/category/apps)
      (if you're using FireFox, you can download it as an [add-on](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
