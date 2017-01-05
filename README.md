@@ -167,7 +167,8 @@ If you notice anything interesting, write it down - we'll take five minutes to
 
 ## Additional Resources
 
--   [Source code for Ember Inspector](https://github.com/emberjs/ember-inspector)
+-   [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+-   [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
 ## [License](LICENSE)
 
