@@ -51,7 +51,7 @@ The code for this application comes from
  [yoember](http://yoember.com/)
  produced by Zoltan Debre
 
-Go to [this link](https://yoember-library-app-18b03.firebaseapp.com/) in your browser; you should see a page like this:
+Go to [this link]( https://library-app.firebaseapp.com/) in your browser; you should see a page like this:
 
 ![Page](https://i.gyazo.com/8962fe7c46bb4eaf824e06b9618a714a.png)
 
@@ -77,9 +77,11 @@ A view state is an abstraction representing a possible way that the screen can
 A typical application might have a large number of different Routes and view
  states, nested in a tree-like fashion based on their URLs.
 
-This particular app only has one view state, `application`, so we can't see that
- tree structure very easily.
-However, if we check the 'Components' box, suddenly a tree structure appears!
+Ember inspector recently changed to show all components by default. If we check the
+`Current route only` box, we can focus on one view state and its components.
+
+However, if we uncheck the 'Current route only' box, suddenly a tree structure appears!
+
 Even though there are no other view states inside `application`, `application`
  _does_ contain multiple Ember Components, each with its own template.
 
