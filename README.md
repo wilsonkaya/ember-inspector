@@ -65,7 +65,7 @@ The info tab is where you can find version information for the key libraries in
 
 ### View Tree Tab
 
-![View Tree](https://cloud.githubusercontent.com/assets/10408784/18523407/17e70472-7a82-11e6-8d7a-44f03b7b1bcf.png)
+![View Tree](https://i.gyazo.com/f45dbb80a5ab8d6997c6a40463dc0d54.png)
 
 The 'View Tree' tab shows all of the view states in your application.
 A view state is an abstraction representing a possible way that the screen can
