@@ -1,4 +1,6 @@
-import DS from 'ember-data';
+import ENV from 'ember-inspector/config/environment';
+import ActiveModelAdapter from 'active-model-adapter';
 
-export default DS.JSONAPIAdapter.extend({
+export default ActiveModelAdapter.extend({
+  host: ENV.apiHost,
 });
