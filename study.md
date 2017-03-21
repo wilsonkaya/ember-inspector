@@ -164,17 +164,20 @@ If you notice anything interesting, write it down - ask your questions in slack!
 What are the benefits of using ember inspector?
 
 ```md
-<!-- your answer here -->
+In a bigger scale of aplications there will be many different routes and components
+this aplication will play an important role to understanding which routes are
+working and which are not.
 ```
 
 Which tab would you use to debug an error involving a model's attribute value?
 
 ```md
-<!-- your answer here -->
+I beleive View Tree is the tab that we will be using. Because we can test each
+model individually.
 ```
 
 What is the URL to download ember inspector for chrome?
 
 ```md
-<!-- your answer here -->
+https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi?hl=en
 ```
